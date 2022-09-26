@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import useNumberList from "../hooks/useNumberList";
+// import React, { useState } from "react";
+// import useNumberList from "../hooks/useNumberList";
 
 type List2Props = {
   // TODO
   initialArray: Array<number>;
 };
 const List2 = ({ initialArray = [1, 2, 3, 4] }: List2Props) => {
-  const [num, setNum] = useState<number>(0);
-  const { appendStart, appendEnd, popStart, popEnd, clear, reset } = useNumberList(initialArray);
+  // const [num, setNum] = useState<number>(0);
+  // const { appendStart, appendEnd, popStart, popEnd, clear, reset } = useNumberList(initialArray);
   // const onChange = (e: ChangeEvent<HTMLInputElement>) => setNum(e.target.value);
   return (
     <div data-testid="list2">

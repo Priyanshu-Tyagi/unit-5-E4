@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import useNumberList from "../hooks/useNumberList";
+// import React, { useState } from "react";
+// import useNumberList from "../hooks/useNumberList";
 
 type List1Props = {
   initialArray: Array<number>;
 };
 const List1 = ({initialArray=[1, 2, 3]}: List1Props) => {
-  const [num,setNum] = useState();
-  const {appendStart, appendEnd, popStart, popEnd, clear, reset} = useNumberList(initialArray);
+  // const [num,setNum] = useState();
+  // const {appendStart, appendEnd, popStart, popEnd, clear, reset} = useNumberList(initialArray);
   return (
     <div data-testid="list1">
       <h3 data-testid="list1-label">List-#1</h3>
