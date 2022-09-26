@@ -16,16 +16,16 @@ const List2 = ({ initialArray = [1, 2, 3, 4] }: List2Props) => {
       {initialArray.map((i) => (<div data-testid="list2-element">{i}</div>))}
 
       <input data-testid="list2-input" type={"number"} placeholder="Enter Number" />
-      <button data-testid="list2-btn-append-end" onClick={appendStart(num)}>
+      <button data-testid="list2-btn-append-end" >
         Append Start
       </button>
-      <button data-testid="list2-btn-pop-start" onClick={popStart()}>
+      <button data-testid="list2-btn-pop-start">
         POP Start
       </button>
-      <button data-testid="list2-btn-clear" onClick={clear()}>
+      <button data-testid="list2-btn-clear">
         Clear
       </button>
-      <button data-testid="list2-btn-reset" onClick={reset()}>
+      <button data-testid="list2-btn-reset">
         Reset
       </button>
     </div>
